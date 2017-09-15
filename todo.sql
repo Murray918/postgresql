@@ -17,6 +17,35 @@ INSERT INTO todos (title, details, priority,) VALUES ('play number-munchers', 't
 
 INSERT INTO todos (title, details, priority,) VALUES ('make a beautiful sculpture and destroy it before any one can see it', 'nuff said', 1, current_TIMESTAMP,);
 
+INSERT INTO todos (title, details, priority) VALUES ('listen to the new future album', 'boring i know', 3, current_TIMESTAMP);
+
+INSERT INTO todos (title, details, priority) VALUES ('tell elan to feed spock', 'also get that stuff from', 3, current_TIMESTAMP )
+
+INSERT INTO todos (title, detail, priority) VALUES ('practice the beatles becuase on guitar',  'run at tempo 5 times', 3, current_TIMESTAMP);
+
+INSERT INTO todos (title, details, priority) VALUES ('try new voicings on becuase', 'if you choose a new voicing it needs to be easier to position in corresponence to the other chords also look at chord inversions', 3, current_TIMESTAMP);
+
+INSERT INTO todos (title, details, proprity) VALUES ('get the rest of the trash out of the garage', 'it should take one load with both cars', 1 current_TIMESTAMP);
+
+INSERT INTO todos (title, priority) VALUES ('play a round of edh with shannon', 1 , current_TIMESTAMP, current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('thoroughly judge the recent trejectory of the band the sword', 'they fudged a good thing', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('listen to the black saint and the sinner lady', 'thanks charles', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('research more about kind of blue', 'memorize the dates and check about the death of bop', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('sign up for lightning talk', 'preferably not till next week', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('find clips for talk', '1 prebob, 1 bop, 2 from kind of blue, and one post modal', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('kind of blue musicians', 'note the ones of imortance', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('thoroughly judge the recent trejectory of the band the sword', 'they fudged a good thing', 3 , current_TIMESTAMP);
+
+INSERT INTO todos (title, detail, priorty) VALUES ('E', 'they fudged a good thing', 3 , current_TIMESTAMP);
+
+
 SELECT * FROM todos;
 
 SELECT completed_at FROM todos;
