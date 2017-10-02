@@ -48,10 +48,26 @@ INSERT INTO todos (title, detail, priorty) VALUES ('E', 'they fudged a good thin
 
 SELECT * FROM todos;
 
+
 SELECT completed_at FROM todos;
+
 
 SELECT priority = 1 FROM todos;
 
+
 UPDATE todos SET completed_at = current_TIMESTAMP WHERE completed_at = NULL;
 
+
 DELETE FROM todos WHERE details = 'be rude about it';
+
+
+SELECT * FROM todos WHERE completed_at is NULL AND priority = 3;
+
+
+SELECT * FROM todos WHERE completed_at is NULL ORDER BY  priority ASC;
+
+
+SELECT * FROM todos WHERE created_at >'2017-07-29' ORDER BY priority ASC;
+
+
+SElECT title FROM todos WHERE priority = 5 AND completed_at is NULL ORDER BY created_at ASC LIMIT 1;
